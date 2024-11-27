@@ -1,7 +1,7 @@
 # whisper.unity
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.5.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.5.5)
 
-[![Testing](https://github.com/Macoron/whisper.unity/actions/workflows/test.yml/badge.svg)](https://github.com/Macoron/whisper.unity/actions/workflows/test.yml)
+[![Testing](https://github.com/dremixam/whisper.unity/actions/workflows/test.yml/badge.svg)](https://github.com/dremixam/whisper.unity/actions/workflows/test.yml)
 
 This is Unity3d bindings for the [whisper.cpp](https://github.com/ggerganov/whisper.cpp). It provides high-performance inference of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model running on your local machine.
 
@@ -20,7 +20,7 @@ This is Unity3d bindings for the [whisper.cpp](https://github.com/ggerganov/whis
 - [x] Linux (x86_64, [optional CUDA](#cuda-support))
 - [x] iOS (Device and Simulator)
 - [x] Android (ARM64)
-- [ ] WebGL (see [this issue](https://github.com/Macoron/whisper.unity/issues/20))
+- [ ] WebGL (see [this issue](https://github.com/dremixam/whisper.unity/issues/20))
 - [x] VisionOS 
 
 ## Samples
@@ -38,7 +38,7 @@ Clone this repository and open it as regular Unity project. It comes with exampl
 
 Alternatively you can add this repository to your project as a **Unity Package**. Add it by this git URL to your Unity Package Manager:
 ```
-https://github.com/Macoron/whisper.unity.git?path=/Packages/com.whisper.unity
+https://github.com/dremixam/whisper.unity.git?path=/Packages/com.whisper.unity
 ```
 ### CUDA Support
 > Unity project compiled with enabled CUDA expects your end-users to have Nvidia GPU and CUDA libraries. Trying to run build without it will result error.
